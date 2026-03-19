@@ -33,3 +33,33 @@ header {
     transform: translateY(-5px);
 }
 
+/* Default styles for footer links */
+footer a {
+    color: #fff; /* Bright color, e.g., white text on dark background */
+    text-decoration: none; /* Optional: remove default underline */
+    transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for the effect */
+}
+
+/* Styles when the link is hovered */
+footer a:hover {
+    color: #8af; /* Change text color to match the glow */
+    text-shadow: 0 0 10px #8af, 0 0 20px #8af; /* Add a glowing shadow */
+}
+
+/* Default styles for footer links */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px; /* Give some space for the glow */
+    display: inline-block; /* Allows box-shadow to work nicely */
+    transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+    border-radius: 3px; /* Optional: adds rounded corners to the glow */
+}
+
+/* Styles when the link is hovered */
+footer a:hover {
+    color: #000; /* Change text color for contrast */
+    background-color: #8af; /* Add a base color */
+    box-shadow: 0 0 10px #8af, 0 0 20px #8af; /* Add a glowing shadow */
+}
+
