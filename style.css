@@ -63,3 +63,19 @@ footer a:hover {
     box-shadow: 0 0 10px #8af, 0 0 20px #8af; /* Add a glowing shadow */
 }
 
+/* This makes the link fill the entire card and keeps your text color */
+.card-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit; /* Keeps the text color you already set */
+}
+
+/* Optional: This ensures the image stays inside the card nicely */
+.game-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+}
