@@ -1,1 +1,2 @@
-# game
+# My Game
+\n This game is
